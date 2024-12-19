@@ -78,3 +78,25 @@ switch (num){
         console.log('末吉です');
         break;        
 }
+// while文を書いてみよう
+num = Math.floor(Math.random() * 5);
+console.log('最初の値は' + num + 'です');
+
+while(num !== 0){
+    num = Math.floor(Math.random() * 5);
+    console.log('現在の値は' + num +'です');
+}
+
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
+// 配列
+
+const userName = ['侍太郎','侍一郎','侍二郎','侍三郎','侍四郎'];
+console.log(userName);
+userName[1] = '侍花子';
+userName[5] = '侍五郎';
+
+console.log(userName);
+console.log(userName[3]);
+console.log(userName.length);
