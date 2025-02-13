@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="js/if-swich.js"></script>
+    <h2 id="first-heading" class="heading">大見出し</h2><!--#first-heading.heading-->
+    <h2 id="second-heading" class="heading">中見出し</h2><!--#second-heading.heading-->
+    <ul>
+        <li id="first-list" class="list">リスト１</li><!--#first-list.list-->
+        <li id="first-list" class="list">リスト２</li><!--#first-list.list-->
+    </ul>
+
+    <button id="output-btn">文字列の出力</button>
+
+    <button id="add-btn">リストの追加</button>
+    <ul id="parent-list"></ul>
+
+    <form action="" name="textForm">
+        <input type="text" name="textBox">
+    </form>
+    <button id="count-btn">文字数のカウント</button><!--#count-btn-->
+  
+    <form action="" name="areaForm">
+        <input type="radio" name="area" value="tokyo">東京都
+        <input type="radio" name="area" value="aichi">愛知県
+        <input type="radio" name="area" value="osaka">大阪府
+    </form>
+    <button id="area-btn">値の取得</button><!--#area-btn-->
+
+
+    <form action="" name="osForms">
+        <label for="利用したことのあるOSを選択してください"></label><br>
+        <input type="checkbox" name="os" value="windows">Windows
+        <input type="checkbox" name="os" value="macos">macOS
+        <input type="checkbox" name="os" value="linux">Linux
+        <input type="checkbox" name="os" value="ios">iOS
+        <input type="checkbox" name="os" value="android">Android
+    </form>
+    <button id="os-btn">値の取得</button><!--#os-btn-->
+
+    <div class="blue-screen">１ページ目</div><!--.blue-screen-->
+    <div class="red-screen">２ページ目</div><!--.red-screen-->
+    <div class="blue-screen">３ページ目</div><!--.blue-screen-->
+    <div class="red-screen">４ページ目</div><!--.red-screen-->
+    <div class="blue-screen">５ページ目</div><!--.blue-screen-->
+    <a href="#" id="back-btn">TOPに戻る</a><!--#back-btn-->
+
+
+
+    <h1>東京の明日の天気</h1>
+    <button id="ajax-btn">取得</button><!--#ajax-btn-->
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
